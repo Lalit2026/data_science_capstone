@@ -8,8 +8,6 @@ shinyUI(navbarPage("Capstone: Course Project",
                             HTML("<strong>Author: Lalit</strong>"),
                             br(),
                             HTML("<strong>Date: 05/13/2018</strong>"),
-                            br(),
-                            img(src = "./headers.png"),
                             # Sidebar
                             sidebarLayout(
                               sidebarPanel(
@@ -31,12 +29,6 @@ shinyUI(navbarPage("Capstone: Course Project",
                                 tags$style(type='text/css', '#text2 {background-color: rgba(255,255,0,0.40); color: black;}'),
                                 textOutput('text2')
                               )
-                            )
-                   ),
-                   tabPanel("About",
-                            mainPanel(
-                              img(src = "./headers.png"),
-                              includeMarkdown("about.md")
                             )
                    )
 )
