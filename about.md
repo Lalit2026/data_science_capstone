@@ -13,4 +13,4 @@ Results
 Note:
 The source codes for ui.R and server.R files are also available on the [https://github.com/Lalit2026/data_science_capstone]
 
-Presentation Slide decks are available on the RPubs page
+Presentation Slide decks are available on the RPubs page [http://rpubs.com/Lalit2026/388578]
